@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnosis Story</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+<div class="panel">
+          <p class="panel-item">Overview</p>
+          <p class="panel-item">Patients</p>
+          <p class="panel-item">Schedule</p>
+          <p class="panel-item">Message</p>
+          <p class="panel-item">Transactions</p>
+          <p class="panel-item">Dr. Jose Simons,
+            General Patrocinier
+          </p>
+          <img id="doctor" src="https://thumbs.dreamstime.com/b/retrato-del-doctor-mayor-en-el-pasillo-del-hospital-16965674.jpg">
+
+        </div>
+
+
+        <header>
+            <h1>Diagnosis History</h1>
+        </header>
+
+        
+<div class="container1">
+          <img id="patient-profile" alt="Foto de perfil" src="https://fedskillstest.ct.digital/1.png"> 
+           
+        <div><p><strong></strong> <span id="patient-name"></span></p></div>
+        <div class="patient-info">
+            
+            <p><strong>Date of birth :</strong> <span id="patient-date_of_birth"></span></p>
+            <p><strong>Gender:</strong> <span id="patient-gender"></span></p>
+            <p><strong>Age:</strong> <span id="patient-age"></span></p>
+            <p><strong>Contact info:</strong> <span id="patient-phone"></span></p>
+            <p><strong>Emergency contact</strong> <span id="patient-emergency"></span></p>
+            <p><strong>Insurance provider:</strong> <span id="patient-insurance"></span></p>
+        </div>
+</div>
+
+
+        <div>
+          <img id="presure" alt="Foto de presion" src="https://i.sstatic.net/llUjt.png"> 
+        </div>
+        
+
+          <div class="body">
+            <img id="gloves" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsGzjMJDG6r2oddUo1CTcX7SvWVP3Um7ShA_CI_e_ZbZLEQO2I">
+  
+            <img id="temperature" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5B11AxgAMxd4HcEWo0r0u8DlF9GLQ-Eer8a8cu1k9Iug7F8dq">
+        
+            <img id="heart" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb0uquEqYq73GxK6zwbXTv0Q23gDrgbLNpyVZFFDQmb1VFcnNW">
+          </div>
+
+          <div id="final">
+            <div id="final-item">Show All Information</div>
+          </div>
+        </div>
+        <div class="chart-container">
+            <canvas id="bloodPressureChart"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

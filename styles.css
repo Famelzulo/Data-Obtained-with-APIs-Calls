@@ -1,0 +1,195 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgb(240, 232, 232);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container1{
+   background-color: white;
+border-radius: 1rem;
+height: 65rem;
+width: 80rem;
+}
+
+h1{
+  color: #333;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: -57rem;
+  
+}
+
+#patient-profile {
+  width: 18rem; 
+  height: 18rem;
+  border-radius: 10px; 
+  margin: 47rem; 
+  margin-left: 58rem; 
+    margin-top: 1rem;
+    position: relative;
+}
+
+#presure{
+  width: 50rem;
+  height: 38rem;
+  border-radius: 10px; 
+  display: flex; 
+  margin-left: 0rem;
+  margin-top: -61rem;
+  border: 1px solid rgb(242, 243, 250);
+  position: absolute;
+}
+
+#body{
+  display: flex;
+}
+
+#gloves{
+  position: absolute;
+  margin-top: -19rem;
+  margin-left: 1rem;
+  width: 15rem;
+  height: 17rem;
+  border: 1px solid rgb(213, 214, 218);
+  border-radius: 10px;
+
+}
+
+#temperature{
+  margin-top: -19rem;
+    margin-left: 301px;
+    width: 15rem;
+    height: 17rem;
+    border: 1px solid rgb(202, 197, 197);
+  border-radius: 10px;
+  position: absolute;
+}
+
+#heart{
+  margin-top: -19rem;
+    margin-left: 585px;
+    position: absolute;
+    width: 15rem;
+    height: 17rem;
+    border: 1px solid rgb(189, 182, 182);
+  border-radius: 10px;
+    
+}
+
+.panel {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  background-color: #ffffff; 
+  padding: 10px; 
+  border-radius: 30px; 
+}
+
+.panel-item {
+  margin: 0 15px; 
+  padding: 10px 15px;
+  border-radius: 25px;
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.panel-item:hover {
+  background-color: #38f7f8;
+  transform: scale(1.05)
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+#patient-name{
+  font-size: 2rem;
+  color: black;
+  margin-left: 62rem;
+  margin-top: 17rem;
+  position: relative;
+  top: 15rem;
+  position: absolute;
+
+}
+
+#doctor{
+      width: 55px;
+    height: 43px;
+    border-radius: 29px;
+    margin-left: -49px;
+}
+
+
+.patient-info {
+  color: rgb(14, 13, 13);
+  font-size: 20px;
+  margin-bottom: 33px;
+  margin-left: 59rem;
+  margin-top: -43rem;
+  position: absolute;
+  width: 115px;
+  height: 113px;
+}
+
+strong {
+  color: #555;
+}
+
+.chart-container {
+  position: relative;
+  height: 400px; 
+  width: 100%;
+}
+
+#final {
+  margin-top: -7rem;
+  margin-left: 56rem;
+  background-color: #fff; 
+  position: absolute;
+  padding: 17px;
+  width: 230px;
+  height: auto; 
+  border-radius: 23px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  transition: all 0.3s ease; 
+}
+
+#final-item {
+  margin: 0 15px;
+  padding: 10px 20px; 
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #38f7f8; 
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  color: #000; 
+  border: 1px solid #38f7f8; 
+}
+
+#final-item:hover {
+  background-color: #38f7f8; 
+  color:#201e1e; 
+  transform: scale(1.05); 
+}
+
+#final-item:active {
+  background-color: #2dd3d4;
+  transform: scale(0.98); 
+}
+
+
+
